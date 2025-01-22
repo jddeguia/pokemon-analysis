@@ -13,6 +13,10 @@ def get_nature_info(id):
         nature_info = {
             "nature_id": id,
             "name": nature_data["name"],
+            "decreased_stat": nature_data["decreased_stat"],
+            "hates_flavor": nature_data["hates_flavor"],
+            "increased_stat": nature_data["increased_stat"],
+            "likes_flavor": nature_data["likes_flavor"]
         }
 
         # Flatten move_battle_style_preferences
