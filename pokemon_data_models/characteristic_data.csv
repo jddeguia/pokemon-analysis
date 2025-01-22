@@ -1,0 +1,31 @@
+characteristic_id,gene_modulo,highest_stat,description_en
+1,0,hp,Loves to eat
+2,0,attack,Proud of its power
+3,0,defense,Sturdy body
+4,0,special-attack,Highly curious
+5,0,special-defense,Strong willed
+6,0,speed,Likes to run
+7,1,hp,Takes plenty of siestas
+8,1,attack,Likes to thrash about
+9,1,defense,Capable of taking hits
+10,1,special-attack,Mischievous
+11,1,special-defense,Somewhat vain
+12,1,speed,Alert to sounds
+13,2,hp,Nods off a lot
+14,2,attack,A little quick tempered
+15,2,defense,Highly persistent
+16,2,special-attack,Thoroughly cunning
+17,2,special-defense,Strongly defiant
+18,2,speed,Impetuous and silly
+19,3,hp,Scatters things often
+20,3,attack,Likes to fight
+21,3,defense,Good endurance
+22,3,special-attack,Often lost in thought
+23,3,special-defense,Hates to lose
+24,3,speed,Somewhat of a clown
+25,4,hp,Likes to relax
+26,4,attack,Quick tempered
+27,4,defense,Good perseverance
+28,4,special-attack,Very finicky
+29,4,special-defense,Somewhat stubborn
+30,4,speed,Quick to flee
