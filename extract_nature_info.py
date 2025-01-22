@@ -13,10 +13,10 @@ def get_nature_info(id):
         nature_info = {
             "nature_id": id,
             "name": nature_data["name"],
-            "decreased_stat": nature_data["decreased_stat"],
-            "hates_flavor": nature_data["hates_flavor"],
-            "increased_stat": nature_data["increased_stat"],
-            "likes_flavor": nature_data["likes_flavor"]
+            "decreased_stat_name": nature_data["decreased_stat"]["name"] if nature_data["decreased_stat"] else None,
+            "hates_flavor_name": nature_data["hates_flavor"]["name"] if nature_data["hates_flavor"] else None,
+            "increased_stat_name": nature_data["increased_stat"]["name"] if nature_data["increased_stat"] else None,
+            "likes_flavor_name": nature_data["likes_flavor"]["name"] if nature_data["likes_flavor"] else None,
         }
 
         # Flatten move_battle_style_preferences
@@ -33,6 +33,7 @@ def get_nature_info(id):
         return nature_info
     else:
         return None
+
 
 # Function to retrieve and retry on failure
 def get_nature_data(ids):
