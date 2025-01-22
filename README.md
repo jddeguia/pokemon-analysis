@@ -2,7 +2,8 @@
 
 ## Setup
 The process involved in the project is shown in the image below
-![image](https://github.com/user-attachments/assets/6111c7ab-67f7-4ae0-bc54-beda27f34e16)
+![image](https://github.com/user-attachments/assets/9605ec48-c909-486b-b2c5-6c6305212a31)
+
 - The API was tested on Postman to see how the API will respond
 - Load the API using Python
 - For Pokemon Info, the ID was loaded from 1-100
