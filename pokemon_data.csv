@@ -1,4 +1,4 @@
-pokemon_id,name,base_experience,height,weight,stats_hp,stats_attack,stats_defense,stats_special-attack,stats_special-defense,stats_speed,ability_1,ability_2,type_1,type_2,ability_3
+pokemon_id,name,base_experience,height,weight,stats_hp,stats_attack,stats_defense,stats_special_attack,stats_special_defense,stats_speed,ability_1,ability_2,type_1,type_2,ability_3
 1,bulbasaur,64,7,69,45,49,49,65,65,45,overgrow,chlorophyll,grass,poison,
 2,ivysaur,142,10,130,60,62,63,80,80,60,overgrow,chlorophyll,grass,poison,
 3,venusaur,263,20,1000,80,82,83,100,100,80,overgrow,chlorophyll,grass,poison,

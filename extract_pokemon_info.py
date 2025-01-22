@@ -66,5 +66,5 @@ if __name__ == "__main__":
     df = pd.DataFrame(pokemon_data_list)
     
     # Export the DataFrame to a CSV file
-    df.to_csv('pokemon_data.csv', index=False)
+    df.to_csv('pokemon_data.csv', index=False, encoding='utf-8')
     print("CSV file has been created: pokemon_data.csv")

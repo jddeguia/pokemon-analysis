@@ -60,5 +60,5 @@ if __name__ == "__main__":
     df = pd.DataFrame(nature_data_list)
     
     # Export the DataFrame to a CSV file
-    df.to_csv('nature_data.csv', index=False)
+    df.to_csv('nature_data.csv', index=False, encoding='utf-8')
     print("CSV file has been created: nature_data.csv")
